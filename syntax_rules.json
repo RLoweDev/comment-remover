@@ -1,0 +1,151 @@
+{
+    "rust": {
+        "name": "Rust",
+        "extensions": ["rs"],
+        "single_line": [
+            {
+                "pattern": "///",
+                "description": "Documentation comments"
+            },
+            {
+                "pattern": "//!",
+                "description": "Module-level documentation"
+            },
+            {
+                "pattern": "//",
+                "description": "Regular single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "python": {
+        "name": "Python",
+        "extensions": ["py"],
+        "single_line": [
+            {
+                "pattern": "#",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "\"\"\"",
+                "end": "\"\"\"",
+                "description": "Multi-line comments (double quotes)"
+            },
+            {
+                "start": "'''",
+                "end": "'''",
+                "description": "Multi-line comments (single quotes)"
+            }
+        ]
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "extensions": ["js", "jsx"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "typescript": {
+        "name": "TypeScript",
+        "extensions": ["ts", "tsx"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "java": {
+        "name": "Java",
+        "extensions": ["java"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "c": {
+        "name": "C",
+        "extensions": ["c", "h"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "cpp": {
+        "name": "C++",
+        "extensions": ["cpp", "hpp"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    },
+    "go": {
+        "name": "Go",
+        "extensions": ["go"],
+        "single_line": [
+            {
+                "pattern": "//",
+                "description": "Single-line comments"
+            }
+        ],
+        "multi_line": [
+            {
+                "start": "/*",
+                "end": "*/",
+                "description": "Multi-line comments"
+            }
+        ]
+    }
+} 
