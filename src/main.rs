@@ -236,7 +236,7 @@ fn print_info() {
     println!("  comment_remover remove --force main.rs");
     println!("  comment_remover remove --auto --force main.rs\n");
     
-    println!("{}", "SUPPORTED LANGUAGES:".bold());
+    println!("{}", "DEFAULT SUPPORTED LANGUAGES:".bold());
     println!("  • Rust (.rs)");
     println!("  • Python (.py)");
     println!("  • JavaScript (.js, .jsx)");
